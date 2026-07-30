@@ -106,12 +106,12 @@ def login_screen():
             <div style='margin-bottom:26px; padding:0 4px;'>
                 <div style='font-size:32px; font-weight:800; color:{ACCENT}; margin-bottom:14px;'>허브</div>
                 <div style='font-size:17px; color:#1E293B; line-height:1.8; margin-bottom:18px; max-width:640px;'>
-                    텃밭·화분 재배가 처음이어도 괜찮아요. 작물명과 화분·텃밭 크기만 알려주면
+                    텃밭·화분 재배가 처음이어도 괜찮아요. 작물명만 알려주면
                     <span style='color:{ACCENT}; font-weight:700;'>AI가 심기부터 수확까지</span> 맞춤 가이드를
                     만들어드리고, 그 이후로도 계속 곁에서 챙겨드려요.
                 </div>
                 <div style='font-size:15px; color:#4B5563; line-height:2.0;'>
-                    <div><span style='color:{ACCENT}; font-weight:700;'>✓</span> 작물명과 화분·텃밭 크기만 입력하면 심기부터 수확까지 단계별 일정을 자동 생성해요</div>
+                    <div><span style='color:{ACCENT}; font-weight:700;'>✓</span> 작물명만 입력하면 심기부터 수확까지 단계별 일정을 자동 생성해요</div>
                     <div><span style='color:{ACCENT}; font-weight:700;'>✓</span> 식물 사진 한 장으로 AI가 생육 상태를 정밀검사하고 가이드를 다시 조정해요</div>
                     <div><span style='color:{ACCENT}; font-weight:700;'>✓</span> 텃밭 위치를 등록하면 폭염·한파·태풍 같은 날씨 위기를 매일 자동으로 확인해요</div>
                 </div>
