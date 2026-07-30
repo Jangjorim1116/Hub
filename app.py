@@ -173,6 +173,11 @@ def signup_screen():
                 email = st.text_input("이메일")
                 password = st.text_input("비밀번호", type="password")
                 password_confirm = st.text_input("비밀번호 확인", type="password")
+
+                with st.expander(L("terms_title")):
+                    st.markdown(L("terms_text"))
+                agree_terms = st.checkbox(L("terms_agree_checkbox"))
+
                 submitted = st.form_submit_button("가입하기", use_container_width=True, type="primary")
 
                 if submitted:
@@ -180,6 +185,8 @@ def signup_screen():
                         st.warning("모든 항목을 입력해주세요.")
                     elif password != password_confirm:
                         st.error("비밀번호가 일치하지 않습니다.")
+                    elif not agree_terms:
+                        st.warning(L("terms_required_warning"))
                     else:
                         ok, message = auth.register_user(name, email, password)
                         if ok:
@@ -437,6 +444,14 @@ def _delete_account_dialog():
                 st.rerun()
             else:
                 st.error(msg)
+
+    _inner()
+
+
+def _privacy_dialog():
+    @st.dialog(L("setting_privacy"))
+    def _inner():
+        st.markdown(L("privacy_policy_text"))
 
     _inner()
 
@@ -889,6 +904,8 @@ def home_screen():
                 st.rerun()
             if st.button(L("setting_delete"), use_container_width=True, key="setting_delete"):
                 _delete_account_dialog()
+            if st.button(L("setting_privacy"), use_container_width=True, key="setting_privacy"):
+                _privacy_dialog()
 
     st.session_state._prev_tab = st.session_state.tab
 

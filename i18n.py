@@ -688,6 +688,235 @@ TRANSLATIONS = {
         "ja": "どの野菜にも使える万能肥料の紹介", "zh": "适合所有蔬菜的通用肥料推荐",
         "fr": "Autres engrais adaptés à toutes les cultures",
     },
+
+    "terms_title": {"ko": "이용약관", "en": "Terms of Service", "ja": "利用規約", "zh": "服务条款", "fr": "Conditions d'utilisation"},
+    "terms_agree_checkbox": {
+        "ko": "위 이용약관에 동의합니다", "en": "I agree to the Terms of Service above",
+        "ja": "上記の利用規約に同意します", "zh": "我同意以上服务条款",
+        "fr": "J'accepte les conditions d'utilisation ci-dessus",
+    },
+    "terms_required_warning": {
+        "ko": "이용약관에 동의해야 가입할 수 있어요.", "en": "You must agree to the Terms of Service to sign up.",
+        "ja": "利用規約に同意しないと登録できません。", "zh": "必须同意服务条款才能注册。",
+        "fr": "Vous devez accepter les conditions d'utilisation pour vous inscrire.",
+    },
+    "terms_text": {
+        "ko": (
+            "제1조 (목적)\n"
+            "이 약관은 '허브'(이하 '서비스')가 제공하는 AI 기반 재배 가이드 서비스의 이용 조건과 절차를 정합니다.\n\n"
+            "제2조 (서비스의 내용)\n"
+            "서비스는 이용자가 입력한 작물 정보를 바탕으로 Anthropic Claude API를 통해 재배 가이드, 사진 진단, "
+            "날씨 기반 관리 조언을 생성합니다. AI가 생성한 정보는 참고용이며, 실제 재배 결과를 보장하지 않습니다.\n\n"
+            "제3조 (이용자의 의무)\n"
+            "이용자는 가입 시 정확한 정보를 입력해야 하며, 본인 계정과 비밀번호를 안전하게 관리할 책임이 있습니다. "
+            "타인의 정보를 도용하거나 서비스를 부정한 목적으로 사용해서는 안 됩니다.\n\n"
+            "제4조 (미성년자 이용)\n"
+            "만 14세 미만 이용자는 법정대리인의 동의 없이 개인정보를 제공해서는 안 됩니다. "
+            "만 14세 미만임이 확인될 경우 서비스 이용이 제한될 수 있습니다.\n\n"
+            "제5조 (서비스 변경 및 중단)\n"
+            "서비스는 운영상·기술상 필요에 따라 사전 공지 후 변경되거나 일시 중단될 수 있습니다.\n\n"
+            "제6조 (책임의 제한)\n"
+            "서비스가 제공하는 정보는 AI가 생성한 참고 자료이며, 이를 활용한 재배 결과에 대해 서비스는 책임을 지지 않습니다."
+        ),
+        "en": (
+            "Article 1 (Purpose)\n"
+            "These Terms set out the conditions and procedures for using the AI-based growing guide service "
+            "provided by 'Herb' (the \"Service\").\n\n"
+            "Article 2 (Service Description)\n"
+            "Based on the crop information you enter, the Service uses the Anthropic Claude API to generate "
+            "growing guides, photo diagnoses, and weather-based care advice. AI-generated information is for "
+            "reference only and does not guarantee actual growing results.\n\n"
+            "Article 3 (User Obligations)\n"
+            "Users must enter accurate information when signing up and are responsible for keeping their "
+            "account and password secure. Users must not impersonate others or use the Service for improper "
+            "purposes.\n\n"
+            "Article 4 (Use by Minors)\n"
+            "Users under the age of 14 must not provide personal information without the consent of a legal "
+            "guardian. Service use may be restricted if a user is confirmed to be under 14.\n\n"
+            "Article 5 (Changes to and Suspension of the Service)\n"
+            "The Service may be changed or temporarily suspended, with prior notice, as operationally or "
+            "technically necessary.\n\n"
+            "Article 6 (Limitation of Liability)\n"
+            "Information provided by the Service is AI-generated reference material, and the Service is not "
+            "liable for growing outcomes based on its use."
+        ),
+        "ja": (
+            "第1条（目的）\n"
+            "本規約は、「허브（ハブ）」（以下「サービス」）が提供するAIベースの栽培ガイドサービスの利用条件および"
+            "手続きを定めます。\n\n"
+            "第2条（サービスの内容）\n"
+            "サービスは、利用者が入力した作物情報をもとにAnthropic Claude APIを通じて栽培ガイド、写真診断、"
+            "天気に基づく管理アドバイスを生成します。AIが生成した情報は参考用であり、実際の栽培結果を保証する"
+            "ものではありません。\n\n"
+            "第3条（利用者の義務）\n"
+            "利用者は登録時に正確な情報を入力する必要があり、自身のアカウントとパスワードを安全に管理する責任が"
+            "あります。他人の情報を盗用したり、サービスを不正な目的で使用してはなりません。\n\n"
+            "第4条（未成年者の利用）\n"
+            "満14歳未満の利用者は、法定代理人の同意なしに個人情報を提供してはなりません。満14歳未満であることが"
+            "確認された場合、サービスの利用が制限されることがあります。\n\n"
+            "第5条（サービスの変更および中断）\n"
+            "サービスは、運営上・技術上の必要に応じて事前告知の上、変更または一時中断されることがあります。\n\n"
+            "第6条（責任の制限）\n"
+            "サービスが提供する情報はAIが生成した参考資料であり、これを活用した栽培結果についてサービスは責任を"
+            "負いません。"
+        ),
+        "zh": (
+            "第1条（目的）\n"
+            "本条款规定了\"Herb（허브）\"（以下简称\"服务\"）提供的AI种植指南服务的使用条件和程序。\n\n"
+            "第2条（服务内容）\n"
+            "服务会根据用户输入的作物信息，通过Anthropic Claude API生成种植指南、照片诊断和基于天气的养护建议。"
+            "AI生成的信息仅供参考，不保证实际种植结果。\n\n"
+            "第3条（用户义务）\n"
+            "用户注册时必须输入准确信息，并对自己的账户和密码的安全负责。用户不得盗用他人信息，也不得将服务用于"
+            "不正当目的。\n\n"
+            "第4条（未成年人使用）\n"
+            "未满14周岁的用户不得在未经法定监护人同意的情况下提供个人信息。如确认用户未满14周岁，服务使用可能"
+            "受到限制。\n\n"
+            "第5条（服务的变更及中断）\n"
+            "服务可能因运营或技术需要，在事先通知后进行变更或暂时中断。\n\n"
+            "第6条（责任限制）\n"
+            "服务提供的信息是AI生成的参考资料，对于据此产生的种植结果，服务不承担责任。"
+        ),
+        "fr": (
+            "Article 1 (Objet)\n"
+            "Les présentes conditions définissent les modalités et procédures d'utilisation du service de guide "
+            "de culture basé sur l'IA fourni par « Herb » (le « Service »).\n\n"
+            "Article 2 (Description du service)\n"
+            "Sur la base des informations sur les cultures que vous saisissez, le Service utilise l'API Claude "
+            "d'Anthropic pour générer des guides de culture, des diagnostics par photo et des conseils "
+            "d'entretien basés sur la météo. Les informations générées par l'IA sont fournies à titre indicatif "
+            "uniquement et ne garantissent pas les résultats réels de culture.\n\n"
+            "Article 3 (Obligations de l'utilisateur)\n"
+            "L'utilisateur doit saisir des informations exactes lors de l'inscription et est responsable de la "
+            "sécurité de son compte et de son mot de passe. Il est interdit d'usurper l'identité d'autrui ou "
+            "d'utiliser le Service à des fins inappropriées.\n\n"
+            "Article 4 (Utilisation par des mineurs)\n"
+            "Les utilisateurs de moins de 14 ans ne doivent pas fournir de données personnelles sans le "
+            "consentement d'un représentant légal. L'utilisation du Service peut être restreinte si l'utilisateur "
+            "est confirmé comme ayant moins de 14 ans.\n\n"
+            "Article 5 (Modification et interruption du service)\n"
+            "Le Service peut être modifié ou temporairement interrompu, avec préavis, selon les besoins "
+            "opérationnels ou techniques.\n\n"
+            "Article 6 (Limitation de responsabilité)\n"
+            "Les informations fournies par le Service sont des données de référence générées par l'IA, et le "
+            "Service décline toute responsabilité quant aux résultats de culture obtenus à partir de leur "
+            "utilisation."
+        ),
+    },
+    "setting_privacy": {
+        "ko": "개인정보처리방침", "en": "Privacy Policy", "ja": "プライバシーポリシー",
+        "zh": "隐私政策", "fr": "Politique de confidentialité",
+    },
+    "privacy_policy_text": {
+        "ko": (
+            "'허브'는 다음과 같이 개인정보를 처리합니다.\n\n"
+            "1. 수집하는 개인정보 항목\n"
+            "- 필수: 이름, 이메일, 비밀번호(암호화 저장)\n"
+            "- 선택: 프로필 사진, 텃밭 위치(시/도·시/군/구), 업로드한 식물 사진\n\n"
+            "2. 개인정보의 수집 및 이용 목적\n"
+            "- 회원 식별 및 로그인\n"
+            "- AI 재배 가이드·사진 진단·날씨 기반 조언 생성\n"
+            "- 커뮤니티·1:1 AI 채팅 기능 제공\n\n"
+            "3. 개인정보의 제3자 제공\n"
+            "사진, 작물 정보, 위치, 대화 내용 등은 AI 응답 생성을 위해 Anthropic(Claude API)에 전송될 수 있습니다. "
+            "그 외의 목적으로 제3자에게 제공하지 않습니다.\n\n"
+            "4. 개인정보의 보관 및 파기\n"
+            "비밀번호는 PBKDF2-SHA256으로 암호화하여 저장합니다. 이용자가 계정을 삭제하면 화분·텃밭·채팅 기록을 "
+            "포함한 모든 개인정보가 즉시 영구 삭제됩니다.\n\n"
+            "5. 이용자의 권리\n"
+            "이용자는 언제든 설정에서 이메일·비밀번호를 변경하거나 계정을 삭제해 개인정보 이용을 중단할 수 있습니다.\n\n"
+            "6. 문의\n"
+            "서비스 이용 중 개인정보 관련 문의는 팀 운영자에게 연락해 주세요."
+        ),
+        "en": (
+            "'Herb' processes personal information as follows.\n\n"
+            "1. Personal information collected\n"
+            "- Required: name, email, password (stored encrypted)\n"
+            "- Optional: profile photo, garden location (province/district), uploaded plant photos\n\n"
+            "2. Purpose of collection and use\n"
+            "- Member identification and login\n"
+            "- Generating AI growing guides, photo diagnoses, and weather-based advice\n"
+            "- Providing community and 1:1 AI chat features\n\n"
+            "3. Provision of personal information to third parties\n"
+            "Photos, crop information, location, and chat content may be sent to Anthropic (Claude API) to "
+            "generate AI responses. Information is not provided to third parties for any other purpose.\n\n"
+            "4. Retention and destruction of personal information\n"
+            "Passwords are encrypted and stored using PBKDF2-SHA256. When a user deletes their account, all "
+            "personal information — including pots, gardens, and chat history — is immediately and permanently "
+            "deleted.\n\n"
+            "5. User rights\n"
+            "Users can change their email or password, or delete their account at any time in Settings to stop "
+            "the use of their personal information.\n\n"
+            "6. Contact\n"
+            "For questions about personal information while using the Service, please contact the team."
+        ),
+        "ja": (
+            "「허브（ハブ）」は以下のように個人情報を取り扱います。\n\n"
+            "1. 収集する個人情報の項目\n"
+            "必須：氏名、メールアドレス、パスワード（暗号化して保存）\n"
+            "任意：プロフィール写真、菜園の位置（都道府県・市区町村）、アップロードした植物の写真\n\n"
+            "2. 個人情報の収集および利用目的\n"
+            "会員識別およびログイン\n"
+            "AI栽培ガイド・写真診断・天気に基づくアドバイスの生成\n"
+            "コミュニティ・1対1 AIチャット機能の提供\n\n"
+            "3. 個人情報の第三者提供\n"
+            "写真、作物情報、位置、会話内容などはAI応答生成のためAnthropic（Claude API）に送信される場合が"
+            "あります。それ以外の目的で第三者に提供することはありません。\n\n"
+            "4. 個人情報の保管および破棄\n"
+            "パスワードはPBKDF2-SHA256で暗号化して保存します。利用者がアカウントを削除すると、鉢植え・菜園・"
+            "チャット履歴を含むすべての個人情報が直ちに完全に削除されます。\n\n"
+            "5. 利用者の権利\n"
+            "利用者はいつでも設定画面からメールアドレス・パスワードを変更したり、アカウントを削除して個人情報の"
+            "利用を停止することができます。\n\n"
+            "6. お問い合わせ\n"
+            "サービス利用中の個人情報に関するお問い合わせはチーム運営者までご連絡ください。"
+        ),
+        "zh": (
+            "\"Herb（허브）\"按以下方式处理个人信息。\n\n"
+            "1. 收集的个人信息项目\n"
+            "必填：姓名、邮箱、密码（加密存储）\n"
+            "选填：头像照片、菜园位置（省/市及区/县）、上传的植物照片\n\n"
+            "2. 个人信息的收集和使用目的\n"
+            "会员身份识别及登录\n"
+            "生成AI种植指南、照片诊断及基于天气的建议\n"
+            "提供社区及一对一AI聊天功能\n\n"
+            "3. 个人信息向第三方提供\n"
+            "照片、作物信息、位置、聊天内容等可能会为生成AI回复而发送给Anthropic（Claude API）。除此之外不会以"
+            "其他目的提供给第三方。\n\n"
+            "4. 个人信息的保存及销毁\n"
+            "密码使用PBKDF2-SHA256加密存储。用户删除账户后，包括花盆、菜园、聊天记录在内的所有个人信息将立即"
+            "永久删除。\n\n"
+            "5. 用户权利\n"
+            "用户可随时在设置中更改邮箱、密码，或删除账户以停止个人信息的使用。\n\n"
+            "6. 联系方式\n"
+            "在使用服务过程中如有个人信息相关问题，请联系团队负责人。"
+        ),
+        "fr": (
+            "« Herb » traite les données personnelles comme suit.\n\n"
+            "1. Données personnelles collectées\n"
+            "Obligatoires : nom, e-mail, mot de passe (stocké de manière chiffrée)\n"
+            "Facultatives : photo de profil, emplacement du jardin (province/arrondissement), photos de plantes "
+            "téléchargées\n\n"
+            "2. Finalités de la collecte et de l'utilisation\n"
+            "Identification des membres et connexion\n"
+            "Génération de guides de culture par IA, de diagnostics par photo et de conseils basés sur la météo\n"
+            "Fourniture des fonctionnalités de communauté et de discussion individuelle avec l'IA\n\n"
+            "3. Transmission des données personnelles à des tiers\n"
+            "Les photos, les informations sur les cultures, la localisation et le contenu des discussions "
+            "peuvent être transmis à Anthropic (API Claude) afin de générer les réponses de l'IA. Aucune donnée "
+            "n'est transmise à des tiers à d'autres fins.\n\n"
+            "4. Conservation et suppression des données personnelles\n"
+            "Les mots de passe sont chiffrés et stockés à l'aide de PBKDF2-SHA256. Lorsqu'un utilisateur "
+            "supprime son compte, toutes ses données personnelles — y compris les pots, jardins et l'historique "
+            "de discussion — sont immédiatement et définitivement supprimées.\n\n"
+            "5. Droits de l'utilisateur\n"
+            "Les utilisateurs peuvent à tout moment modifier leur e-mail ou mot de passe, ou supprimer leur "
+            "compte dans les Paramètres pour cesser l'utilisation de leurs données personnelles.\n\n"
+            "6. Contact\n"
+            "Pour toute question relative aux données personnelles pendant l'utilisation du Service, veuillez "
+            "contacter l'équipe."
+        ),
+    },
 }
 
 
