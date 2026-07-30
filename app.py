@@ -190,7 +190,7 @@ def signup_screen():
                     else:
                         ok, message = auth.register_user(name, email, password)
                         if ok:
-                            st.session_state.flash_message = f"{name}님, 가입이 완료되었습니다. 로그인해주세요."
+                            st.session_state.flash_message = f"{name}, 가입이 완료되었습니다. 로그인해주세요."
                             go_to("login")
                             st.rerun()
                         else:
@@ -636,8 +636,7 @@ def home_screen():
     st.markdown(
         f"<div class='sf-profile-row'>"
         f"{avatar_html}"
-        f"<div class='sf-profile-name'>{st.session_state.current_user}"
-        f"{'님' if current_language() == 'ko' else ''}</div>"
+        f"<div class='sf-profile-name'>{st.session_state.current_user}</div>"
         f"</div>",
         unsafe_allow_html=True,
     )
