@@ -99,3 +99,7 @@ streamlit run Hub.py
 - [Streamlit](https://github.com/streamlit/streamlit) — Apache License 2.0
 - [Anthropic Python SDK](https://github.com/anthropics/anthropic-sdk-python) — MIT License
 - 본 프로젝트: MIT License
+
+## 외부 자문
+
+- 없음 (팀원이 직접 기획·개발)
