@@ -1,0 +1,13 @@
+name: Keep Streamlit app awake
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping app URL
+        run: curl -sSL --max-time 60 https://nnmujuxw2dwz2scs2bmhq2.streamlit.app/ -o /dev/null -w "HTTP %{http_code}\n"
