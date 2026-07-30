@@ -1,4 +1,4 @@
-# 🌱 허브 (Herb)
+# 🌱 Hub
 
 텃밭·화분에서 작물을 처음 키우는 초보자도, AI의 도움을 받아 쉽고 간편하게 작물을 키울 수 있도록 돕는 웹 서비스입니다.
 
@@ -10,7 +10,7 @@
 - 식물 상태(병충해, 영양 부족 등)를 스스로 진단하기 어렵다
 - 텃밭(노지)은 날씨 변화에 관리 일정이 크게 좌우되지만, 이를 실시간으로 반영하기 어렵다
 
-**허브**는 작물명과 재배 환경만 입력하면 AI가 심기부터 수확까지의 맞춤 가이드라인을 자동 생성하고, 사진·날씨 데이터를 바탕으로 그 가이드라인을 실시간으로 조정해주는 서비스입니다.
+**Hub**는 작물명과 재배 환경만 입력하면 AI가 심기부터 수확까지의 맞춤 가이드라인을 자동 생성하고, 사진·날씨 데이터를 바탕으로 그 가이드라인을 실시간으로 조정해주는 서비스입니다.
 
 ## 주요 기능
 
@@ -33,7 +33,7 @@
 사용자(브라우저)
      │
      ▼
-Streamlit 앱 (app.py)
+Streamlit 앱 (Hub.py)
      │
      ├── auth.py       — 회원가입/로그인/이메일·비밀번호 변경/계정 삭제, PBKDF2-SHA256 비밀번호 해시 저장
      ├── pots.py        — 화분 데이터 CRUD, 작물별 기본(사전 정의) 가이드
@@ -64,8 +64,8 @@ Streamlit 앱 (app.py)
 ## 실행 방법
 
 ```bash
-git clone https://github.com/Jangjorim1116/smartfarm-app.git
-cd smartfarm-app
+git clone https://github.com/Jangjorim1116/Hub.git
+cd Hub
 pip install -r requirements.txt
 ```
 
@@ -78,7 +78,7 @@ ANTHROPIC_API_KEY = "sk-ant-..."
 실행:
 
 ```bash
-streamlit run app.py
+streamlit run Hub.py
 ```
 
 ## AI 사용 내역

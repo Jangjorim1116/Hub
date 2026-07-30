@@ -157,8 +157,8 @@ TRANSLATIONS = {
         "fr": "Vérification des risques météo urgents dans la zone de votre jardin...",
     },
     "browser_notification_title": {
-        "ko": "허브 알림", "en": "Herb notification", "ja": "허브 通知",
-        "zh": "허브 通知", "fr": "Notification Herb",
+        "ko": "Hub 알림", "en": "Hub notification", "ja": "Hub通知",
+        "zh": "Hub通知", "fr": "Notification Hub",
     },
 
     "settings_title": {"ko": "설정", "en": "Settings", "ja": "設定", "zh": "设置", "fr": "Paramètres"},
@@ -703,7 +703,7 @@ TRANSLATIONS = {
     "terms_text": {
         "ko": (
             "제1조 (목적)\n"
-            "이 약관은 '허브'(이하 '서비스')가 제공하는 AI 기반 재배 가이드 서비스의 이용 조건과 절차를 정합니다.\n\n"
+            "이 약관은 'Hub'(이하 '서비스')가 제공하는 AI 기반 재배 가이드 서비스의 이용 조건과 절차를 정합니다.\n\n"
             "제2조 (서비스의 내용)\n"
             "서비스는 이용자가 입력한 작물 정보를 바탕으로 Anthropic Claude API를 통해 재배 가이드, 사진 진단, "
             "날씨 기반 관리 조언을 생성합니다. AI가 생성한 정보는 참고용이며, 실제 재배 결과를 보장하지 않습니다.\n\n"
@@ -721,7 +721,7 @@ TRANSLATIONS = {
         "en": (
             "Article 1 (Purpose)\n"
             "These Terms set out the conditions and procedures for using the AI-based growing guide service "
-            "provided by 'Herb' (the \"Service\").\n\n"
+            "provided by 'Hub' (the \"Service\").\n\n"
             "Article 2 (Service Description)\n"
             "Based on the crop information you enter, the Service uses the Anthropic Claude API to generate "
             "growing guides, photo diagnoses, and weather-based care advice. AI-generated information is for "
@@ -742,7 +742,7 @@ TRANSLATIONS = {
         ),
         "ja": (
             "第1条（目的）\n"
-            "本規約は、「허브（ハブ）」（以下「サービス」）が提供するAIベースの栽培ガイドサービスの利用条件および"
+            "本規約は、「Hub」（以下「サービス」）が提供するAIベースの栽培ガイドサービスの利用条件および"
             "手続きを定めます。\n\n"
             "第2条（サービスの内容）\n"
             "サービスは、利用者が入力した作物情報をもとにAnthropic Claude APIを通じて栽培ガイド、写真診断、"
@@ -762,7 +762,7 @@ TRANSLATIONS = {
         ),
         "zh": (
             "第1条（目的）\n"
-            "本条款规定了\"Herb（허브）\"（以下简称\"服务\"）提供的AI种植指南服务的使用条件和程序。\n\n"
+            "本条款规定了\"Hub\"（以下简称\"服务\"）提供的AI种植指南服务的使用条件和程序。\n\n"
             "第2条（服务内容）\n"
             "服务会根据用户输入的作物信息，通过Anthropic Claude API生成种植指南、照片诊断和基于天气的养护建议。"
             "AI生成的信息仅供参考，不保证实际种植结果。\n\n"
@@ -780,7 +780,7 @@ TRANSLATIONS = {
         "fr": (
             "Article 1 (Objet)\n"
             "Les présentes conditions définissent les modalités et procédures d'utilisation du service de guide "
-            "de culture basé sur l'IA fourni par « Herb » (le « Service »).\n\n"
+            "de culture basé sur l'IA fourni par « Hub » (le « Service »).\n\n"
             "Article 2 (Description du service)\n"
             "Sur la base des informations sur les cultures que vous saisissez, le Service utilise l'API Claude "
             "d'Anthropic pour générer des guides de culture, des diagnostics par photo et des conseils "
@@ -809,7 +809,7 @@ TRANSLATIONS = {
     },
     "privacy_policy_text": {
         "ko": (
-            "'허브'는 다음과 같이 개인정보를 처리합니다.\n\n"
+            "'Hub'는 다음과 같이 개인정보를 처리합니다.\n\n"
             "1. 수집하는 개인정보 항목\n"
             "- 필수: 이름, 이메일, 비밀번호(암호화 저장)\n"
             "- 선택: 프로필 사진, 텃밭 위치(시/도·시/군/구), 업로드한 식물 사진\n\n"
@@ -829,7 +829,7 @@ TRANSLATIONS = {
             "서비스 이용 중 개인정보 관련 문의는 팀 운영자에게 연락해 주세요."
         ),
         "en": (
-            "'Herb' processes personal information as follows.\n\n"
+            "'Hub' processes personal information as follows.\n\n"
             "1. Personal information collected\n"
             "- Required: name, email, password (stored encrypted)\n"
             "- Optional: profile photo, garden location (province/district), uploaded plant photos\n\n"
@@ -851,7 +851,7 @@ TRANSLATIONS = {
             "For questions about personal information while using the Service, please contact the team."
         ),
         "ja": (
-            "「허브（ハブ）」は以下のように個人情報を取り扱います。\n\n"
+            "「Hub」は以下のように個人情報を取り扱います。\n\n"
             "1. 収集する個人情報の項目\n"
             "必須：氏名、メールアドレス、パスワード（暗号化して保存）\n"
             "任意：プロフィール写真、菜園の位置（都道府県・市区町村）、アップロードした植物の写真\n\n"
@@ -872,7 +872,7 @@ TRANSLATIONS = {
             "サービス利用中の個人情報に関するお問い合わせはチーム運営者までご連絡ください。"
         ),
         "zh": (
-            "\"Herb（허브）\"按以下方式处理个人信息。\n\n"
+            "\"Hub\"按以下方式处理个人信息。\n\n"
             "1. 收集的个人信息项目\n"
             "必填：姓名、邮箱、密码（加密存储）\n"
             "选填：头像照片、菜园位置（省/市及区/县）、上传的植物照片\n\n"
@@ -892,7 +892,7 @@ TRANSLATIONS = {
             "在使用服务过程中如有个人信息相关问题，请联系团队负责人。"
         ),
         "fr": (
-            "« Herb » traite les données personnelles comme suit.\n\n"
+            "« Hub » traite les données personnelles comme suit.\n\n"
             "1. Données personnelles collectées\n"
             "Obligatoires : nom, e-mail, mot de passe (stocké de manière chiffrée)\n"
             "Facultatives : photo de profil, emplacement du jardin (province/arrondissement), photos de plantes "

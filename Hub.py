@@ -19,7 +19,7 @@ import tips
 import pots
 import regions
 
-st.set_page_config(page_title="허브", page_icon="🌱", layout="wide")
+st.set_page_config(page_title="Hub", page_icon="🌱", layout="wide")
 
 st.markdown(
     """
@@ -104,7 +104,7 @@ def login_screen():
         st.markdown(
             f"""
             <div style='margin-bottom:26px; padding:0 4px;'>
-                <div style='font-size:32px; font-weight:800; color:{ACCENT}; margin-bottom:14px;'>허브</div>
+                <div style='font-size:32px; font-weight:800; color:{ACCENT}; margin-bottom:14px;'>Hub</div>
                 <div style='font-size:17px; color:#1E293B; line-height:1.8; margin-bottom:18px; max-width:640px;'>
                     텃밭·화분 재배가 처음이어도 괜찮아요. 작물명만 알려주면
                     <span style='color:{ACCENT}; font-weight:700;'>AI가 심기부터 수확까지</span> 맞춤 가이드를
@@ -159,7 +159,7 @@ def login_screen():
 
 def signup_screen():
     st.markdown(CARD_STYLE, unsafe_allow_html=True)
-    st.markdown(f"<div class='sf-topnav-brand'>🌱 허브</div>", unsafe_allow_html=True)
+    st.markdown(f"<div class='sf-topnav-brand'>🌱 Hub</div>", unsafe_allow_html=True)
     st.write("")
 
     _, mid, _ = st.columns([1, 2, 1])
@@ -580,7 +580,7 @@ def _topnav():
     with st.container(key="topnav_wrap"):
         brand_col, _spacer_col, nav1, nav2, nav3 = st.columns([2, 3, 1, 1, 1])
         with brand_col:
-            st.markdown("<div class='sf-topnav-brand'>🌱 허브</div>", unsafe_allow_html=True)
+            st.markdown("<div class='sf-topnav-brand'>🌱 Hub</div>", unsafe_allow_html=True)
         with nav1:
             if st.button(L("nav_home"), use_container_width=True, key="topnav_home", disabled=(on_home_page and st.session_state.tab == "home")):
                 go_to("home")
