@@ -113,7 +113,7 @@ def login_screen():
                 <div style='font-size:15px; color:#4B5563; line-height:2.0;'>
                     <div><span style='color:{ACCENT}; font-weight:700;'>✓</span> 작물명만 입력하면 심기부터 수확까지 단계별 일정을 자동 생성해요</div>
                     <div><span style='color:{ACCENT}; font-weight:700;'>✓</span> 식물 사진 한 장으로 AI가 생육 상태를 정밀검사하고 가이드를 다시 조정해요</div>
-                    <div><span style='color:{ACCENT}; font-weight:700;'>✓</span> 텃밭 위치를 등록하면 폭염·한파·태풍 같은 날씨 위기를 매일 자동으로 확인해서 알려드려요</div>
+                    <div><span style='color:{ACCENT}; font-weight:700;'>✓</span> 텃밭 위치를 등록하면 폭염·한파·태풍 같은 날씨 위기를 매일 자동으로 알려드려요</div>
                 </div>
             </div>
             """,
