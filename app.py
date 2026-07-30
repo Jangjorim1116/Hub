@@ -176,7 +176,7 @@ def signup_screen():
 
                 with st.expander(L("terms_title")):
                     st.markdown(L("terms_text"))
-                agree_terms = st.checkbox(L("terms_agree_checkbox"))
+                    agree_terms = st.checkbox(L("terms_agree_checkbox"))
 
                 submitted = st.form_submit_button("가입하기", use_container_width=True, type="primary")
 

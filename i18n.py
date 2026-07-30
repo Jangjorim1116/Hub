@@ -691,9 +691,9 @@ TRANSLATIONS = {
 
     "terms_title": {"ko": "이용약관", "en": "Terms of Service", "ja": "利用規約", "zh": "服务条款", "fr": "Conditions d'utilisation"},
     "terms_agree_checkbox": {
-        "ko": "위 이용약관에 동의합니다", "en": "I agree to the Terms of Service above",
-        "ja": "上記の利用規約に同意します", "zh": "我同意以上服务条款",
-        "fr": "J'accepte les conditions d'utilisation ci-dessus",
+        "ko": "이용약관에 동의합니다", "en": "I agree to the Terms of Service",
+        "ja": "利用規約に同意します", "zh": "我同意服务条款",
+        "fr": "J'accepte les conditions d'utilisation",
     },
     "terms_required_warning": {
         "ko": "이용약관에 동의해야 가입할 수 있어요.", "en": "You must agree to the Terms of Service to sign up.",
