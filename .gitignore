@@ -3,4 +3,9 @@ __pycache__/
 .venv/
 venv/
 streamlit.log
+push_attempt.log
 .streamlit/secrets.toml
+users.json
+pots.json
+gardens.json
+chat.json
