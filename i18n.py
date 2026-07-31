@@ -157,7 +157,7 @@ TRANSLATIONS = {
         "fr": "Vérification des risques météo urgents dans la zone de votre jardin...",
     },
     "browser_notification_title": {
-        "ko": "Hub 알림", "en": "Hub notification", "ja": "Hub通知",
+        "ko": "허브 알림", "en": "Hub notification", "ja": "Hub通知",
         "zh": "Hub通知", "fr": "Notification Hub",
     },
 
@@ -703,7 +703,7 @@ TRANSLATIONS = {
     "terms_text": {
         "ko": (
             "제1조 (목적)\n"
-            "이 약관은 'Hub'(이하 '서비스')가 제공하는 AI 기반 재배 가이드 서비스의 이용 조건과 절차를 정합니다.\n\n"
+            "이 약관은 '허브'(이하 '서비스')가 제공하는 AI 기반 재배 가이드 서비스의 이용 조건과 절차를 정합니다.\n\n"
             "제2조 (서비스의 내용)\n"
             "서비스는 이용자가 입력한 작물 정보를 바탕으로 Anthropic Claude API를 통해 재배 가이드, 사진 진단, "
             "날씨 기반 관리 조언을 생성합니다. AI가 생성한 정보는 참고용이며, 실제 재배 결과를 보장하지 않습니다.\n\n"
@@ -809,7 +809,7 @@ TRANSLATIONS = {
     },
     "privacy_policy_text": {
         "ko": (
-            "'Hub'는 다음과 같이 개인정보를 처리합니다.\n\n"
+            "'허브'는 다음과 같이 개인정보를 처리합니다.\n\n"
             "1. 수집하는 개인정보 항목\n"
             "- 필수: 이름, 이메일, 비밀번호(암호화 저장)\n"
             "- 선택: 프로필 사진, 텃밭 위치(시/도·시/군/구), 업로드한 식물 사진\n\n"
