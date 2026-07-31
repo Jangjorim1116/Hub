@@ -798,7 +798,13 @@ def home_screen():
             chat.maybe_reset_daily(room)
 
             with st.container(border=True):
-                st.markdown(f"<div class='sf-card-title'>{L('chat_room_title').format(kind=kind_display)}</div>", unsafe_allow_html=True)
+                title_col, toggle_col = st.columns([4, 1])
+                with title_col:
+                    st.markdown(f"<div class='sf-card-title'>{L('chat_room_title').format(kind=kind_display)}</div>", unsafe_allow_html=True)
+                with toggle_col:
+                    if st.button(kind_display, key="chat_room_toggle_users", use_container_width=True, help=L("chat_room_toggle_help")):
+                        st.session_state.chat_room = "텃밭" if room == "화분" else "화분"
+                        st.rerun()
                 st.caption(L("chat_room_desc").format(kind=kind_display))
 
                 messages = chat.get_messages(room)

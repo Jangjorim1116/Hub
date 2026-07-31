@@ -118,6 +118,11 @@ TRANSLATIONS = {
         "ja": "タップすると鉢植えボット/菜園ボットを切り替えます", "zh": "点击可切换花盆助手/菜园助手",
         "fr": "Appuyez pour basculer entre PotBot/GardenBot",
     },
+    "chat_room_toggle_help": {
+        "ko": "탭하면 화분/텃밭 대화방 전환", "en": "Tap to switch between Pot/Garden chat rooms",
+        "ja": "タップすると鉢植え/菜園のチャットルームを切り替えます", "zh": "点击可切换花盆/菜园聊天室",
+        "fr": "Appuyez pour basculer entre les salons Pot/Jardin",
+    },
     "chat_ai_desc": {
         "ko": "나만 볼 수 있는 대화입니다. {kind} 관리에 대해 무엇이든 물어보세요. (매일 초기화돼요)",
         "en": "This chat is private to you. Ask anything about {kind} care. (Resets daily)",
