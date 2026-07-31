@@ -56,8 +56,10 @@ if "confirm_delete_pot" not in st.session_state:
     st.session_state.confirm_delete_pot = False
 if "chat_subview" not in st.session_state:
     st.session_state.chat_subview = "users"
-if "chat_room" not in st.session_state:
-    st.session_state.chat_room = "화분"
+if "chat_room_users" not in st.session_state:
+    st.session_state.chat_room_users = "화분"
+if "chat_room_ai" not in st.session_state:
+    st.session_state.chat_room_ai = "화분"
 if "selected_plot" not in st.session_state:
     st.session_state.selected_plot = None
 if "diagnosis_result_garden" not in st.session_state:
@@ -778,9 +780,8 @@ def home_screen():
                     st.rerun()
 
     elif st.session_state.tab == "chat":
-        room = st.session_state.chat_room
-        kind_display = L("kind_pot") if room == "화분" else L("kind_garden")
-        bot_name = L("bot_name_pot") if room == "화분" else L("bot_name_garden")
+        ai_room = st.session_state.chat_room_ai
+        ai_bot_name = L("bot_name_pot") if ai_room == "화분" else L("bot_name_garden")
 
         sub1, sub2 = st.columns(2)
         with sub1:
@@ -788,13 +789,15 @@ def home_screen():
                 st.session_state.chat_subview = "users"
                 st.rerun()
         with sub2:
-            if st.button(f"{bot_name} {L('chat_ai_1on1')}", use_container_width=True, key="chat_sub_ai", disabled=(st.session_state.chat_subview == "ai")):
+            if st.button(f"{ai_bot_name} {L('chat_ai_1on1')}", use_container_width=True, key="chat_sub_ai", disabled=(st.session_state.chat_subview == "ai")):
                 st.session_state.chat_subview = "ai"
                 st.rerun()
 
         st.write("")
 
         if st.session_state.chat_subview == "users":
+            room = st.session_state.chat_room_users
+            kind_display = L("kind_pot") if room == "화분" else L("kind_garden")
             chat.maybe_reset_daily(room)
 
             with st.container(border=True):
@@ -803,7 +806,7 @@ def home_screen():
                     st.markdown(f"<div class='sf-card-title'>{L('chat_room_title').format(kind=kind_display)}</div>", unsafe_allow_html=True)
                 with toggle_col:
                     if st.button(kind_display, key="chat_room_toggle_users", use_container_width=True, help=L("chat_room_toggle_help")):
-                        st.session_state.chat_room = "텃밭" if room == "화분" else "화분"
+                        st.session_state.chat_room_users = "텃밭" if room == "화분" else "화분"
                         st.rerun()
                 st.caption(L("chat_room_desc").format(kind=kind_display))
 
@@ -830,6 +833,9 @@ def home_screen():
                     st.rerun()
 
         else:
+            room = ai_room
+            kind_display = L("kind_pot") if room == "화분" else L("kind_garden")
+            bot_name = ai_bot_name
             ai_room_key = f"ai::{room}::{st.session_state.current_email}"
             chat.maybe_reset_daily(ai_room_key)
             with st.container(border=True):
@@ -838,7 +844,7 @@ def home_screen():
                     st.markdown(f"<div class='sf-card-title'>{L('chat_ai_title').format(bot=bot_name)}</div>", unsafe_allow_html=True)
                 with toggle_col:
                     if st.button(bot_name, key="chat_room_toggle_ai", use_container_width=True, help=L("chat_bot_toggle_help")):
-                        st.session_state.chat_room = "텃밭" if room == "화분" else "화분"
+                        st.session_state.chat_room_ai = "텃밭" if room == "화분" else "화분"
                         st.rerun()
                 st.caption(L("chat_ai_desc").format(kind=kind_display))
 
